@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=where;function where(a,b){return a.filter(function(a){return b(a)})}

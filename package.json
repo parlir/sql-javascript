@@ -1,0 +1,33 @@
+{
+  "name": "sql-javascript",
+  "version": "0.0.1",
+  "description": "Package used for sql like syntax for javascript array objects",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "NODE_ENV=production babel src/ --out-dir build/",
+    "watch": "babel src/ --out-dir build/ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rparkisoniii/sql-javascript.git"
+  },
+  "keywords": [
+    "sql",
+    "javascript",
+    "functional",
+    "fp"
+  ],
+  "author": "Ralph Parkison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rparkisoniii/sql-javascript/issues"
+  },
+  "homepage": "https://github.com/rparkisoniii/sql-javascript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-babili": "^0.1.4",
+    "babel-preset-env": "^1.6.0"
+  }
+}

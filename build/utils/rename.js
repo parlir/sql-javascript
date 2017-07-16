@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=rename;function rename(a,b){return Object.keys(b).reduce(function(a,c){return c in a&&(a[b[c]]=a[c],delete a[c]),a},Object.assign({},a))}

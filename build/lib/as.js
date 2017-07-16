@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=as;var _rename=require("../utils/rename"),_rename2=_interopRequireDefault(_rename);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function as(a,b){return a.map(function(a){return(0,_rename2.default)(a,b)})}

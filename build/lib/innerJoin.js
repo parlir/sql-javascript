@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=innerJoin;function innerJoin(a,b,c){var d=[],e=b.map(function(a){return a[c]});return a.map(function(a){var b=e.indexOf(a[c]);if(-1!==b){var f={};f[c]=a[c],d.push(f)}}),d}
